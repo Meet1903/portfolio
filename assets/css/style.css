@@ -441,11 +441,12 @@ section {
 }
 
 .skills .progress .skill {
+  font-size: 15px;
   padding: 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: block;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: #050d18;
 }
@@ -645,7 +646,7 @@ section {
 }
 
 .portfolio .portfolio-wrap:hover img {
-  opacity: 0.2; /* Adjust the image opacity as needed */
+  opacity: 0.2; 
 }
 
 .portfolio .portfolio-wrap:hover::after {
