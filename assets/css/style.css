@@ -1158,3 +1158,9 @@ section {
   font-size:30px; 
   color: #551A8B;
 }
+
+.extracurricular-heading {
+  color: #173b6c;
+  font-size: 32px;
+  font-weight: bold;
+}
