@@ -633,7 +633,8 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgba(87, 6, 140);
+  /* color: rgba(87, 6, 140); */
+  color: #190666 !important;
   font-family: 'Open Sans', sans-serif;
   font-size: 35px;
   font-weight: 900;
