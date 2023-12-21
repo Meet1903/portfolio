@@ -1143,3 +1143,18 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+.resume-link {
+  font-size:30px; 
+  color: #173b6c;
+}
+
+.resume-link:hover {
+  font-size:30px; 
+  color: #0000EE;
+}
+
+.resume-link:visited {
+  font-size:30px; 
+  color: #551A8B;
+}
