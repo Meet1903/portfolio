@@ -29,7 +29,7 @@ code {
 }
 
 #header .profile img {
-  margin: 15px auto;
+  margin: 50px auto 20px auto;
   display: block;
   width: 120px;
   border: 8px solid #2c2f3f;
@@ -58,7 +58,7 @@ code {
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  margin-right: 10px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
