@@ -215,6 +215,14 @@ code {
     line-height: 24px;
     margin-bottom: 30px;
   }
+
+  #home p {
+    font-size: 1.25rem;
+  }
+
+  #home .home-container {
+    margin-left: 42px;
+  }
 }
 
 section {
