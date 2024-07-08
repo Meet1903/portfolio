@@ -6,7 +6,7 @@ export default function Resume() {
         <section id="resume" className="resume">
             <div className="container">
                 <div className="section-title">
-                    <h2>Resume <a href="https://drive.google.com/file/d/1B2CTxtBG6HBKqwSH1n2l7aFQ7GPyWOh3/view?usp=sharing" target="_blank"><i className="fa fa-paperclip resume-link"></i></a></h2>
+                    <h2>Resume <a href="https://drive.google.com/file/d/1o7sW-l6PvauLxMGMYMYNETXJiBFJvkRG/view?usp=drive_link" target="_blank"><i className="fa fa-paperclip resume-link"></i></a></h2>
                 </div>
                 <div className="row">
                     <div className="col-lg-6" data-aos="fade-up">
