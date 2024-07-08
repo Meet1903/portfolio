@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-new/static/css/main.6a429fad.css",
-    "main.js": "/portfolio-new/static/js/main.09efdd22.js",
+    "main.css": "/portfolio-new/static/css/main.6ea2509c.css",
+    "main.js": "/portfolio-new/static/js/main.f213b1db.js",
     "static/js/453.1407b060.chunk.js": "/portfolio-new/static/js/453.1407b060.chunk.js",
     "static/media/AboutPage.jpg": "/portfolio-new/static/media/AboutPage.4bd15d99f8a0f0fd4d11.jpg",
     "static/media/TitlePage.jpg": "/portfolio-new/static/media/TitlePage.da6e8c8c836855f0d464.jpg",
@@ -11,12 +11,12 @@
     "static/media/extracurricular-nyu.jpeg": "/portfolio-new/static/media/extracurricular-nyu.0bbdf1b0ac99ec1dca59.jpeg",
     "static/media/extracurricular-ieee.jpeg": "/portfolio-new/static/media/extracurricular-ieee.bda795497a01ab5d466b.jpeg",
     "index.html": "/portfolio-new/index.html",
-    "main.6a429fad.css.map": "/portfolio-new/static/css/main.6a429fad.css.map",
-    "main.09efdd22.js.map": "/portfolio-new/static/js/main.09efdd22.js.map",
+    "main.6ea2509c.css.map": "/portfolio-new/static/css/main.6ea2509c.css.map",
+    "main.f213b1db.js.map": "/portfolio-new/static/js/main.f213b1db.js.map",
     "453.1407b060.chunk.js.map": "/portfolio-new/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a429fad.css",
-    "static/js/main.09efdd22.js"
+    "static/css/main.6ea2509c.css",
+    "static/js/main.f213b1db.js"
   ]
 }
