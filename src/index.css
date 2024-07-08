@@ -165,7 +165,7 @@ code {
   z-index: 1;
 }
 
-#home .hero-container {
+#home .home-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
