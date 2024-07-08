@@ -3,6 +3,7 @@ import Header from './components/Header'
 import TitlePage from './components/TitlePage';
 import About from './components/About';
 import Skills from './components/Skills';
+import Resume from './components/Resume';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {useEffect} from 'react';
@@ -18,6 +19,7 @@ function App() {
       <main id="main">
         <About />
         <Skills />
+        <Resume />
       </main>
     </div>
   );
