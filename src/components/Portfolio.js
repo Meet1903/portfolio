@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Isotope from 'isotope-layout'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -19,7 +19,7 @@ export default function Portfolio() {
                 let portfolioFilters = document.querySelectorAll('#portfolio-flters li');
 
                 portfolioFilters.forEach((filter) => {
-                    filter.addEventListener('click', function(e) {
+                    filter.addEventListener('click', function (e) {
                         e.preventDefault();
                         portfolioFilters.forEach((el) => {
                             el.classList.remove('filter-active');
@@ -29,7 +29,7 @@ export default function Portfolio() {
                         portfolioIsotope.arrange({
                             filter: this.getAttribute('data-filter')
                         });
-                        portfolioIsotope.on('arrangeComplete', function() {
+                        portfolioIsotope.on('arrangeComplete', function () {
                             AOS.refresh();
                         });
                     });
@@ -87,6 +87,61 @@ export default function Portfolio() {
                         link="https://github.com/Meet1903/Finetuned-LeNets-comparison"
                     />
 
+                    <PortfolioItem
+                        cardType='filter-analysis'
+                        title='Citibike - NYC'
+                        technology='Tableau'
+                        link="https://public.tableau.com/views/Citibike-NYC/Animatedvisualizationofhourlydepartures?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link"
+                    />
+
+                    <PortfolioItem
+                        cardType='filter-analysis'
+                        title='Diseases Dashboard by county, year, and sex'
+                        technology='Tableau'
+                        link="https://public.tableau.com/shared/HCNPHCTD6?:display_count=n&:origin=viz_share_link"
+                    />
+
+                    <PortfolioItem
+                        cardType='filter-ai'
+                        title='LayoutGAN'
+                        technology='Python, PyTorch'
+                        link="https://github.com/Meet1903/LayoutGAN"
+                    />
+
+                    <PortfolioItem
+                        cardType='filter-analysis'
+                        title="Fannie Mae's Predictive Analysis for Mitigating the 2008 Financial Crisis"
+                        technology='Python, PyTorch, Tableau'
+                        link="https://meetdiwan.medium.com/fannie-maes-predictive-analysis-and-alternative-strategies-assessment-for-mitigating-the-2008-db50373b15a8"
+                    />
+
+                    <PortfolioItem
+                        cardType='filter-analysis'
+                        title='Telecommunications Customer Churn Forecasting and Analytical Modeling'
+                        technology='Python, PyTorch, Tableau'
+                        link="https://meetdiwan.medium.com/telecommunications-customer-churn-forecasting-and-analytical-modeling-75bdeb74b2b9"
+                    />
+
+                    <PortfolioItem
+                        cardType='filter-analysis'
+                        title='Whom to Sell a Personal Loan?'
+                        technology='Python, PyTorch, Tableau'
+                        link="https://meetdiwan.medium.com/whom-to-sell-the-personal-loan-7e3b5add44d9"
+                    />
+
+                    <PortfolioItem
+                        cardType='filter-ai'
+                        title='Adaptable ResNet'
+                        technology='Python, PyTorch'
+                        link="https://github.com/Meet1903/Adaptable-ResNet"
+                    />
+
+                    <PortfolioItem
+                        cardType='filter-analysis'
+                        title='Employee Attrition Insights: Leveraging IBM HR Analytics Data'
+                        technology='Python, PyTorch, Tableau'
+                        link="https://meetdiwan.medium.com/employee-attrition-insights-leveraging-ibm-hr-analytics-employee-attrition-performance-data-e50122b2ecd3"
+                    />
                 </div>
 
             </div>
