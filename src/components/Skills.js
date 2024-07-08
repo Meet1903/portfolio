@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Waypoint } from 'react-waypoint';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import SkillItem from './SkillItem';
 
 export default function Skills() {
     useEffect(() => {
@@ -25,65 +26,43 @@ export default function Skills() {
                 <div className="row skills-content">
                     <Waypoint onEnter={handleWaypointEnter}>
                         <div className="col-lg-6" data-aos="fade-up">
-                            <div className="progress">
-                                <span className="skill">Programming Languages (C, C++, Java) <i className="val"></i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-
-                            <div className="progress">
-                                <span className="skill">Programming Language (Python) <i className="val"></i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-
-                            <div className="progress">
-                                <span className="skill">HTML-CSS-JavaScript <i className="val"></i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-
-                            <div className="progress">
-                                <span className="skill">Angular <i className="val"></i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
+                            <SkillItem 
+                                title="Programming Languages (C, C++, Java)"
+                                val="85"
+                            />
+                            <SkillItem 
+                                title="Programming Language (Python)"
+                                val="90"
+                            />
+                            <SkillItem 
+                                title="HTML | CSS"
+                                val="80"
+                            />
+                            <SkillItem 
+                                title="Angular | React"
+                                val="90"
+                            />
                         </div>
                     </Waypoint>
 
                     <Waypoint onEnter={handleWaypointEnter}>
                         <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                            <div className="progress">
-                                <span className="skill">PyTorch <i className="val"></i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-
-                            <div className="progress">
-                                <span className="skill">Tensorflow <i className="val"></i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-
-                            <div className="progress">
-                                <span className="skill">AWS <i className="val"></i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-
-                            <div className="progress">
-                                <span className="skill">SQL-MongoDB <i className="val"></i></span>
-                                <div className="progress-bar-wrap">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
+                            <SkillItem 
+                                title="JavaScript | TypeScript"
+                                val="90"
+                            />
+                            <SkillItem 
+                                title="PyTorch | TensorFlow"
+                                val="85"
+                            />
+                            <SkillItem 
+                                title="Amazon Web Services"
+                                val="75"
+                            />
+                            <SkillItem 
+                                title="SQL | MongoDB"
+                                val="80"
+                            />
                         </div>
                     </Waypoint>
                 </div>
