@@ -142,6 +142,14 @@ export default function Portfolio() {
                         technology='Python, PyTorch, Tableau'
                         link="https://meetdiwan.medium.com/employee-attrition-insights-leveraging-ibm-hr-analytics-employee-attrition-performance-data-e50122b2ecd3"
                     />
+
+                    <PortfolioItem
+                        cardType='filter-development'
+                        title='Job Application Helper - Chrome Extension'
+                        technology='JavaScript, HTML/CSS, Chrome Local Storage'
+                        link="https://github.com/Meet1903/Job-Application-Helper-Extension"
+                    />
+
                 </div>
 
             </div>
