@@ -18,7 +18,7 @@ export default function Header() {
 
             <nav id="navbar" className="nav-menu navbar">
             <ul>
-                <li><a href="#hero" className="nav-link scrollto active"><i className="bx bx-home"></i> <span>Home</span></a></li>
+                <li><a href="#home" className="nav-link scrollto active"><i className="bx bx-home"></i> <span>Home</span></a></li>
                 <li><a href="#about" className="nav-link scrollto"><i className="bx bx-user"></i> <span>About</span></a></li>
                 <li><a href="#skills" className="nav-link scrollto"><i className="bx bx-user"></i> <span>Skills</span></a></li>
                 <li><a href="#resume" className="nav-link scrollto"><i className="bx bx-file-blank"></i> <span>Resume</span></a></li>
