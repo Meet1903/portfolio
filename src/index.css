@@ -321,6 +321,9 @@ section {
 .progress {
   overflow: visible;
 }
+.skills-content {
+  margin-top: 10px;
+}
 
 .skills .progress {
   height: 60px;
@@ -359,7 +362,6 @@ section {
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
-  margin-top: 20px;
   margin-bottom: 20px;
   color: #050d18;
 }
