@@ -31,6 +31,13 @@ export default function Header() {
                     navbarToggle.classList.toggle('bi-list');
                     navbarToggle.classList.toggle('bi-x');
                 }
+
+                let navLinks = select('#navbar .nav-link', true);
+                navLinks.forEach((link) => {
+                    link.classList.remove('active');
+                });
+
+                e.currentTarget.classList.add('active');
                 scrollto(e.currentTarget.hash);
             }
         };
@@ -40,7 +47,6 @@ export default function Header() {
             link.addEventListener('click', onScrollToClick);
         });
 
-        // Cleanup event listeners on component unmount
         return () => {
             scrollLinks.forEach((link) => {
                 link.removeEventListener('click', onScrollToClick);
