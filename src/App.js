@@ -4,6 +4,7 @@ import TitlePage from './components/TitlePage';
 import About from './components/About';
 import Skills from './components/Skills';
 import Resume from './components/Resume';
+import ExtraCurricular from './components/ExtraCurricular'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {useEffect} from 'react';
@@ -20,6 +21,7 @@ function App() {
         <About />
         <Skills />
         <Resume />
+        <ExtraCurricular />
       </main>
     </div>
   );
