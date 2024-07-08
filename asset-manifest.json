@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio-new/static/css/main.e5b58c4d.css",
-    "main.js": "/portfolio-new/static/js/main.65a5fbca.js",
-    "static/js/453.1407b060.chunk.js": "/portfolio-new/static/js/453.1407b060.chunk.js",
-    "static/media/AboutPage.jpg": "/portfolio-new/static/media/AboutPage.4bd15d99f8a0f0fd4d11.jpg",
-    "static/media/TitlePage.jpg": "/portfolio-new/static/media/TitlePage.da6e8c8c836855f0d464.jpg",
-    "static/media/extracurricular-courant.png": "/portfolio-new/static/media/extracurricular-courant.ba58c1671d218c65df11.png",
-    "static/media/Display.jpg": "/portfolio-new/static/media/Display.2bfebe1be679bebf6faf.jpg",
-    "static/media/extracurricular-iste.jpeg": "/portfolio-new/static/media/extracurricular-iste.e53a3a3d3e70109447ae.jpeg",
-    "static/media/extracurricular-nyu.jpeg": "/portfolio-new/static/media/extracurricular-nyu.0bbdf1b0ac99ec1dca59.jpeg",
-    "static/media/extracurricular-ieee.jpeg": "/portfolio-new/static/media/extracurricular-ieee.bda795497a01ab5d466b.jpeg",
-    "index.html": "/portfolio-new/index.html",
-    "main.e5b58c4d.css.map": "/portfolio-new/static/css/main.e5b58c4d.css.map",
-    "main.65a5fbca.js.map": "/portfolio-new/static/js/main.65a5fbca.js.map",
-    "453.1407b060.chunk.js.map": "/portfolio-new/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.e11c6243.css",
+    "main.js": "/portfolio/static/js/main.cd83094c.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/AboutPage.jpg": "/portfolio/static/media/AboutPage.4bd15d99f8a0f0fd4d11.jpg",
+    "static/media/TitlePage.jpg": "/portfolio/static/media/TitlePage.da6e8c8c836855f0d464.jpg",
+    "static/media/extracurricular-courant.png": "/portfolio/static/media/extracurricular-courant.ba58c1671d218c65df11.png",
+    "static/media/Display.jpg": "/portfolio/static/media/Display.2bfebe1be679bebf6faf.jpg",
+    "static/media/extracurricular-iste.jpeg": "/portfolio/static/media/extracurricular-iste.e53a3a3d3e70109447ae.jpeg",
+    "static/media/extracurricular-nyu.jpeg": "/portfolio/static/media/extracurricular-nyu.0bbdf1b0ac99ec1dca59.jpeg",
+    "static/media/extracurricular-ieee.jpeg": "/portfolio/static/media/extracurricular-ieee.bda795497a01ab5d466b.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.e11c6243.css.map": "/portfolio/static/css/main.e11c6243.css.map",
+    "main.cd83094c.js.map": "/portfolio/static/js/main.cd83094c.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5b58c4d.css",
-    "static/js/main.65a5fbca.js"
+    "static/css/main.e11c6243.css",
+    "static/js/main.cd83094c.js"
   ]
 }
