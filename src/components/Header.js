@@ -42,13 +42,32 @@ export default function Header() {
             }
         };
 
-        const scrollLinks = select('.scrollto', true);
-        scrollLinks.forEach((link) => {
+        const navbarlinks = select('#navbar .scrollto', true);
+        const navbarlinksActive = () => {
+            let position = window.scrollY + 200;
+            navbarlinks.forEach((navbarlink) => {
+                if (!navbarlink.hash) return;
+                let section = select(navbarlink.hash);
+                if (!section) return;
+                if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+                    navbarlink.classList.add('active');
+                } else {
+                    navbarlink.classList.remove('active');
+                }
+            });
+        };
+
+        window.addEventListener('load', navbarlinksActive);
+        document.addEventListener('scroll', navbarlinksActive);
+
+        navbarlinks.forEach((link) => {
             link.addEventListener('click', onScrollToClick);
         });
 
         return () => {
-            scrollLinks.forEach((link) => {
+            window.removeEventListener('load', navbarlinksActive);
+            document.removeEventListener('scroll', navbarlinksActive);
+            navbarlinks.forEach((link) => {
                 link.removeEventListener('click', onScrollToClick);
             });
         };
