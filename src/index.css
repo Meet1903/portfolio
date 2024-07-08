@@ -318,6 +318,10 @@ section {
   text-align: justify;  
 }
 
+.progress {
+  overflow: visible;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
