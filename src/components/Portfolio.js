@@ -61,7 +61,7 @@ export default function Portfolio() {
                 <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
                     <PortfolioItem
                         cardType='filter-development'
-                        title='WebTrek'
+                        title='WebTrek - The Search Engine'
                         technology='React, Python, Flask, Elasticsearch'
                         link="https://github.com/Meet1903/WebTrek-The-Search-Engine"
                     />
@@ -77,7 +77,7 @@ export default function Portfolio() {
                         cardType='filter-ai'
                         title='Adversarial Attack and Training on Forward Forward Network'
                         technology='Python, PyTorch'
-                        link="https://github.com/Meet1903/Adversarial-Attack-on-Forward-Forward-Network"
+                        link="https://drive.google.com/file/d/1TSdLeeVqqINupxPfC_GoC2DElSghv75S/view?usp=sharing"
                     />
 
                     <PortfolioItem
