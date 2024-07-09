@@ -2,35 +2,46 @@ import React from "react";
 
 export default function Contact() {
     return (
-        <section id="contact" class="contact">
-            <div class="container">
+        <section id="contact" className="contact">
+            <div className="container">
 
-                <div class="section-title">
+                <div className="section-title">
                     <h2>Contact</h2>
                     <p>Feel free to reach out to me for any internship or full-time opportunity.</p>
                 </div>
 
-                <div class="row" data-aos="fade-in">
+                <div className="row" data-aos="fade-in">
 
-                    <div class="col-lg-5 d-flex align-items-stretch">
-                        <div class="info">
+                    <div className="col-lg-5 d-flex align-items-stretch">
+                        <div className="info">
 
-                            <div class="email">
+                            <div className="email">
                                 <a href="mailto:meet.diwan@nyu.edu">
-                                    <i class="bi bi-envelope"></i></a>
+                                    <i className="bi bi-envelope"></i></a>
                                 <h4>Email:</h4>
                                 <p>meet.diwan@nyu.edu</p>
                             </div>
 
-                            <div class="phone">
-                                <i class="bi bi-phone"></i>
+                            <div className="phone">
+                                <i className="bi bi-phone"></i>
                                 <h4>Call:</h4>
                                 <p>+1 347-382-2483</p>
                             </div>
 
+                            <div className="calendly">
+                                <a
+                                    href="https://calendly.com/md5517-nyu"
+                                    target="_blank"
+                                ><i className="bi bi-calendar"></i></a>
+                                <h4>Calendly:</h4>
+                                <p><a
+                                    href="https://calendly.com/md5517-nyu"
+                                    target="_blank"
+                                >Schedule time with me</a></p>
+                            </div>
                         </div>
-
                     </div>
+
                 </div>
             </div>
         </section>

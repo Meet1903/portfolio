@@ -762,7 +762,8 @@ section {
 }
 
 .contact .info .email:hover i,
-.contact .info .phone:hover i {
+.contact .info .phone:hover i, 
+.contact .info .calendly:hover i{
   background: #149ddd;
   color: #fff;
 }
