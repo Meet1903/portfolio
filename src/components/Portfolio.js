@@ -39,18 +39,18 @@ export default function Portfolio() {
     }, []);
 
     return (
-        <section id="portfolio" class="portfolio section-bg">
-            <div class="container">
+        <section id="portfolio" className="portfolio section-bg">
+            <div className="container">
 
-                <div class="section-title">
+                <div className="section-title">
                     <h2>Projects</h2>
                     <p></p>
                 </div>
 
-                <div class="row" data-aos="fade-up">
-                    <div class="col-lg-12 d-flex justify-content-center">
+                <div className="row" data-aos="fade-up">
+                    <div className="col-lg-12 d-flex justify-content-center">
                         <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter="*" className="filter-active">All</li>
                             <li data-filter=".filter-development">Development</li>
                             <li data-filter=".filter-ai">Artificial Intelligence</li>
                             <li data-filter=".filter-analysis">Analysis</li>
@@ -58,7 +58,7 @@ export default function Portfolio() {
                     </div>
                 </div>
 
-                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+                <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
                     <PortfolioItem
                         cardType='filter-development'
                         title='WebTrek'

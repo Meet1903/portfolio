@@ -43,25 +43,25 @@ export default function ExtraCurricular() {
     }, []);
 
     return (
-        <section id="extracurricular" class="extracurricular section-bg">
-            <div class="container">
+        <section id="extracurricular" className="extracurricular section-bg">
+            <div className="container">
 
-                <div class="section-title">
+                <div className="section-title">
                     <h2>Leadership, Involvement & University Employment</h2>
                     <p></p>
                 </div>
 
-                <div class="row" data-aos="fade-up">
-                    <div class="col-lg-12 d-flex justify-content-center">
+                <div className="row" data-aos="fade-up">
+                    <div className="col-lg-12 d-flex justify-content-center">
                         <ul id="extracurricular-flters">
-                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter="*" className="filter-active">All</li>
                             <li data-filter=".filter-undergrad">Undergraduation</li>
                             <li data-filter=".filter-grad">Graduation</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="row extracurricular-container" data-aos="fade-up" data-aos-delay="100">
+                <div className="row extracurricular-container" data-aos="fade-up" data-aos-delay="100">
                     <ExtraCurricularItem
                         cardType='filter-undergrad'
                         title='Chairperson'
