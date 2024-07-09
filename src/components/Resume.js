@@ -15,7 +15,7 @@ export default function Resume() {
                             isOnlyItem={true}
                             title="Meet Nirav Diwan"
                             description="Eagerly waiting to apply my academic knowledge to the real world applciations."
-                            listItem={["629 92nd st, Brookly, New York, NY",
+                            listItem={["629 92nd st, Brooklyn, New York, NY",
                                 "(347) 382-2483",
                                 "meet.diwan@nyu.edu"]}
                         />
@@ -26,7 +26,7 @@ export default function Resume() {
                             title="Master of Science in Computer Engineering"
                             duration="September 2022 - May 2024"
                             description="New York University"
-                            listItem={["Courses: Machine Learning, Deep Learning, Introduction to High Performance Machine Learning, Data Science for Business",
+                            listItem={["Courses: Machine Learning, Deep Learning, Introduction to High Performance Machine Learning, Data Science for Business, Big Data, Data Center and Cloud Computing",
                                 "University Employment: Engagement Ambassador, Graduate Teaching Assistant"]}
                         />
                         <ResumeItem
