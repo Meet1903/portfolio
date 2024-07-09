@@ -5,6 +5,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Resume from './components/Resume';
 import ExtraCurricular from './components/ExtraCurricular';
+import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -42,6 +43,7 @@ function App() {
         <Skills />
         <Resume />
         <Portfolio />
+        <Contact />
       </main>
     </div>
   );
