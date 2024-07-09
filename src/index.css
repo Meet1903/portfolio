@@ -605,7 +605,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.3);
   position: absolute;
   left: 0;
   right: 0;
@@ -662,7 +662,6 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #190666 !important;
-  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: 500;
   font-family: 'Times New Roman', Times, serif;
@@ -703,17 +702,67 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.3rem;
   color: rgb(139, 70, 70);
   text-decoration: none;
   border-radius: 20px;
   color: #190666 !important;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 500;
+  padding: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .portfolio .portfolio-wrap .portfolio-box .portfolio-title {
   text-decoration: none;
   text-align: center;
+}
+
+.contact {
+  padding-bottom: 130px;
+}
+
+.contact .info {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #149ddd;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #dff3fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+
+.contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #173b6c;
+}
+
+.contact .info .email p {
+  padding-top: 5px;
+}
+
+.contact .info .email:hover i,
+.contact .info .phone:hover i {
+  background: #149ddd;
+  color: #fff;
 }
