@@ -1,7 +1,17 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import DisplayImage from '../assets/img/Display.jpg';
 
 export default function Header() {
+    const [clickCount, setClickCount] = useState(0)
+    const handleClick = () => {
+        setClickCount(prevCount => prevCount + 1);
+
+        if (clickCount + 1 === 3) {
+            // Need to implement a secret page here.
+            window.open('https://github.com/Meet1903', '_blank')
+            setClickCount(0)
+        }
+    };
     useEffect(() => {
         const select = (el, all = false) => {
             el = el.trim();
@@ -77,7 +87,9 @@ export default function Header() {
         <div id='header'>
             <div className="d-flex flex-column">
                 <div className="profile">
-                    <img src={DisplayImage} alt="" className="img-fluid rounded-circle" style={{ width: '150px', height: '150px', border: 'none' }} />
+                    <div onClick={handleClick}>
+                        <img src={DisplayImage} alt="" className="img-fluid rounded-circle" style={{ width: '150px', height: '150px', border: 'none' }} />
+                    </div>
                     <h1 className="text-light"><a href="index.html">Meet Diwan</a></h1>
                     <div className="social-links mt-3 text-center">
                         <a href="https://github.com/Meet1903/" className="google-plus" target="_blank" rel="noopener noreferrer"><i className="bx bxl-github"></i></a>
