@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import AboutImage from '../assets/img/AboutPage.jpeg'
 
 export default function About() {
