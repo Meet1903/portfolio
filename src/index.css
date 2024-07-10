@@ -149,7 +149,7 @@ code {
 #home {
   width: 100%;
   height: 100vh;
-  background: url("/src/assets/img/TitlePage.jpg") top center;
+  background: url("/src/assets/img/TitlePage.png") center center;
   background-size: cover;
   position: relative;
 }
@@ -172,7 +172,8 @@ code {
   overflow: hidden;
   width: 100%;
   max-width: 600px;
-  margin-left: 250px;
+  margin-left: 430px;
+  margin-top: -100px;
 }
 
 #home h1 {
@@ -205,6 +206,11 @@ code {
 }
 
 @media (max-width: 768px) {
+  #home {
+    background-attachment: fixed;
+    background: url("/src/assets/img/TitlePage-mobile.png") no-repeat center center;
+    background-size: cover;
+  }
   #home h1 {
     font-size: 28px;
     line-height: 36px;
@@ -221,7 +227,8 @@ code {
   }
 
   #home .home-container {
-    margin-left: 42px;
+    margin-left: 60px;
+    margin-top: 60px;
   }
 }
 
