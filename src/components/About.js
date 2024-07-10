@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import AboutImage from '../assets/img/AboutPage.jpg'
+import AboutImage from '../assets/img/AboutPage.jpeg'
 
 export default function About() {
     return (
