@@ -38,6 +38,17 @@ export default function Resume() {
                                 "Chairperson of IEEE Computer Society",
                                 "Web Development Head of Indian Society for Technical Education"]}
                         />
+                        <h3 className="resume-title">On-Campus Employment</h3>
+                        <ResumeItem
+                            isOnlyItem={false}
+                            title="Graduate Assistant"
+                            duration="August 2023 - January 2024"
+                            description="Courant Institute of Mathematical Sciences, NYU"
+                            listItem={["Assisted in teaching Data Analytics and Visualization in Healthcare course (CSCI-GA.3033-096), focusing on data interpretation and advanced visualization techniques.",
+                                "Engineered and maintained educational software applications using Java and React.js, integrating Redux for state management and ensuring smooth user interactions, which supported over 500 students in their learning activities.",
+                                "Utilized GitHub for version control to manage source code and collaborate on academic software projects with faculty and student teams, ensuring code integrity and streamlining project workflows, which improved project completion times by 25%."
+                            ]}
+                        />
                     </div>
                     <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <h3 className="resume-title">Professional Experience</h3>
@@ -53,13 +64,23 @@ export default function Resume() {
                             ]}
                         />
                          <ResumeItem
-                            isOnlyItem={true}
+                            isOnlyItem={false}
                             title="Software Development Intern"
                             duration="January 2021 - July 2021"
                             description="Crest Data Systems"
                             listItem={["Integrated real-time data migration from Google Cloud Platform to Elasticsearch, facilitating streamlined machine monitoring via Kibana dashboards.",
-                                "Improved data processing by 30% with Python, NumPy, and Pandas for robust applications.",
+                                "Ensured data integrity and provided actionable insights for better decision-making by managing Elasticsearch databases for efficient data storage and retrieval, and utilizing Kibana to visualize and monitor application data.",
                                 "Developed RESTful APIs for seamless backend communication and Dockerized application for consistent deployment."
+                            ]}
+                        />
+                        <ResumeItem
+                            isOnlyItem={true}
+                            title="Software Development Intern"
+                            duration="March 2020 - October 2020"
+                            description="Ouranos Technologies"
+                            listItem={["Improved data processing capabilities by 30% by engineering robust data-driven applications using Python and leveraging NumPy and Pandas for efficient data manipulation and analysis.",
+                                "Designed and implemented dynamic and responsive user interfaces with Angular, writing over 10,000 lines of code, which improved user engagement and experience on multiple devices.",
+                                "Developed and integrated RESTful API using Flask, enabling seamless communication between front-end and back-end systems, resulting in a 20% improvement in data exchange efficiency."
                             ]}
                         />
                     </div>
