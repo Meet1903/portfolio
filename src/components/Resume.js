@@ -75,7 +75,7 @@ export default function Resume() {
                         />
                         <ResumeItem
                             isOnlyItem={true}
-                            title="Software Development Intern"
+                            title="Software Developer Intern"
                             duration="March 2020 - October 2020"
                             description="Ouranos Technologies"
                             listItem={["Improved data processing capabilities by 30% by engineering robust data-driven applications using Python and leveraging NumPy and Pandas for efficient data manipulation and analysis.",
