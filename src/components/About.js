@@ -35,7 +35,7 @@ export default function About() {
                             </div>
                         </div>
                         <p className="overview">
-                        With around 2 years of experience as a Software Engineer, I possess a solid background in programming languages, data structures, algorithms, and software development. 
+                        With around 3 years of experience as a Software Engineer, I possess a solid background in programming languages, data structures, algorithms, and software development. 
                         My expertise extends to full-stack web application development, leveraging technologies such as Angular, React, TypeScript, JavaScript, and Java Spring Boot. Notably, 
                         I have contributed to Subex's flagship product, HyperSense Business Management Studio, by creating various modules.
                         <br />
