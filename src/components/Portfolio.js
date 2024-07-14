@@ -63,7 +63,7 @@ export default function Portfolio() {
                         cardType='filter-development'
                         title='WebTrek - The Search Engine'
                         technology='React, Python, Flask, Elasticsearch'
-                        link="https://github.com/Meet1903/WebTrek-The-Search-Engine"
+                        link="https://github.com/Meet1903/WebTrek-The-Search-Engine-React"
                     />
 
                     <PortfolioItem
