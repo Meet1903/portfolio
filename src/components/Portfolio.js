@@ -149,7 +149,13 @@ export default function Portfolio() {
                         technology='JavaScript, HTML/CSS, Chrome Local Storage'
                         link="https://github.com/Meet1903/Job-Application-Helper-Extension"
                     />
-
+                    
+                    <PortfolioItem
+                        cardType='filter-ai filter-analysis'
+                        title='Sentiment Analysis on YouTube Videos'
+                        technology='Python, PyTorch'
+                        link="https://github.com/Meet1903/Youtube-Video-Sentiment-Analysis-based-on-comments"
+                    />
                 </div>
 
             </div>
