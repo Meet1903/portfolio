@@ -8,7 +8,7 @@ export default function Header() {
 
         if (clickCount + 1 === 3) {
             // Need to implement a secret page here.
-            window.open('https://github.com/Meet1903', '_blank')
+            window.open('https://yqs5cllniez.typeform.com/to/PF3q7YDs', '_blank')
             setClickCount(0)
         }
     };
