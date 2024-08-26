@@ -20,11 +20,11 @@ export default function Skills() {
         { title: "Programming Languages (C, C++, Java)", val: 85 },
         { title: "Programming Language (Python)", val: 90 },
         { title: "HTML | CSS", val: 80 },
-        { title: "Angular | React", val: 90 },
+        { title: "Angular | React | Next", val: 90 },
         { title: "JavaScript | TypeScript", val: 90 },
         { title: "PyTorch | TensorFlow", val: 85 },
         { title: "Amazon Web Services", val: 75 },
-        { title: "SQL | MongoDB", val: 95 }
+        { title: "postgreSQL | MongoDB", val: 95 }
     ];
 
     return (
