@@ -14,8 +14,7 @@ export default function Resume() {
                         <ResumeItem
                             isOnlyItem={true}
                             title="Meet Nirav Diwan"
-                            description="Eagerly waiting to apply my academic knowledge to the real world applciations."
-                            listItem={["629 92nd st, Brooklyn, New York, NY",
+                            listItem={["New York, NY",
                                 "(347) 382-2483",
                                 "meet.diwan@nyu.edu"]}
                         />
@@ -49,9 +48,23 @@ export default function Resume() {
                                 "Utilized GitHub for version control to manage source code and collaborate on academic software projects with faculty and student teams, ensuring code integrity and streamlining project workflows, which improved project completion times by 25%."
                             ]}
                         />
+                        <ResumeItem
+                            isOnlyItem={false}
+                            title="Engagement Ambassador"
+                            duration="September 2023 - May 2024"
+                            description="New York University"
+                            listItem={["Facilitate fundraising efforts across all departments at NYU, particularly emphasizing the 1831 Scholarship Fund, leveraging personal connection as a recipient to enhance donor engagement and support student success."]}
+                        />
                     </div>
                     <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <h3 className="resume-title">Professional Experience</h3>
+                        <ResumeItem
+                            isOnlyItem={false}
+                            title="Lead Engineer"
+                            duration="August 2024 - Present"
+                            description="CareerStar"
+                            listItem={["Leading the end-to-end software development process—encompassing design, coding, testing, and deployment—for an innovative AI-driven platform designed to help students kickstart their careers.",]}
+                        />
                         <ResumeItem
                             isOnlyItem={false}
                             title="Software Engineer"
