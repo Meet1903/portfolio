@@ -44,8 +44,9 @@ export default function Resume() {
                             duration="August 2023 - January 2024"
                             description="Courant Institute of Mathematical Sciences, NYU"
                             listItem={["Assisted in teaching Data Analytics and Visualization in Healthcare course (CSCI-GA.3033-096), focusing on data interpretation and advanced visualization techniques.",
-                                "Engineered and maintained educational software applications using Java and React.js, integrating Redux for state management and ensuring smooth user interactions, which supported over 500 students in their learning activities.",
-                                "Utilized GitHub for version control to manage source code and collaborate on academic software projects with faculty and student teams, ensuring code integrity and streamlining project workflows, which improved project completion times by 25%."
+                                "Conducted practical lab sessions, helping students with hands-on projects involving data analysis and visualization using Tableau, Python, R, and relevant libraries.",
+                                "Crafted assignments and grading rubrics, prepared answer keys, and graded assignments, papers, projects, and exams to uphold academic standards and provide constructive feedback for student growth, resulting in 100% student success in the course.",
+                                "Designed and managed SQL databases to store and retrieve student and course data efficiently, writing complex queries that reduced data retrieval times by 40% and ensured data integrity across multiple academic departments."
                             ]}
                         />
                         <ResumeItem
@@ -63,7 +64,9 @@ export default function Resume() {
                             title="Lead Engineer"
                             duration="August 2024 - Present"
                             description="CareerStar"
-                            listItem={["Leading the end-to-end software development process—encompassing design, coding, testing, and deployment—for an innovative AI-driven platform designed to help students kickstart their careers.",]}
+                            listItem={["Leading development initiatives for a startup, utilizing a tech stack that includes React, Python, Flask, AWS RDS PostgreSQL, AWS S3, and AWS EC2 to build scalable and robust solutions.",
+                                "Overseeing entire Software Development Life Cycle, including requirements gathering, system architecture, database design, development, testing, and deployment, ensuring seamless product delivery."
+                            ]}
                         />
                         <ResumeItem
                             isOnlyItem={false}
