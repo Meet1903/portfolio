@@ -67,6 +67,13 @@ export default function Portfolio() {
                     />
 
                     <PortfolioItem
+                        cardType='filter-development'
+                        title='Search Engine based on MapReduce'
+                        technology='Python, Hadoop, MapReduce'
+                        link="https://github.com/Meet1903/Search-Engine-HDFS-MapReduce"
+                    />
+
+                    <PortfolioItem
                         cardType='filter-development filter-ai'
                         title='Finetuning of BLIP model for Art Image Captioning'
                         technology='Python, PyTorch, Flask, HTML/CSS'
