@@ -21,34 +21,32 @@ export default function About() {
                         <div className="row">
                             <div className="col-lg-6">
                                 <ul>
-                                <li><i className="bi bi-chevron-right"></i> <strong>University:</strong>New York University (NYU)</li>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+1 347-382-2483</span></li>
-                                <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>University:</strong>New York University (NYU)</li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+1 347-382-2483</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
                                 </ul>
                             </div>
                             <div className="col-lg-6">
                                 <ul>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>MS in Computer Engineering</span></li>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:meet.diwan@nyu.edu">meet.diwan@nyu.edu</a></span></li>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Full time role:</strong> <span>Available from May 2024</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>MS in Computer Engineering</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:meet.diwan@nyu.edu">meet.diwan@nyu.edu</a></span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Full time role:</strong> <span>Open to new opportunities</span></li>
                                 </ul>
                             </div>
                         </div>
                         <p className="overview">
-                        With around 3 years of experience as a Software Engineer, I possess a solid background in programming languages, data structures, algorithms, and software development. 
-                        My expertise extends to full-stack web application development, leveraging technologies such as Angular, React, TypeScript, JavaScript, and Java Spring Boot. Notably, 
-                        I have contributed to Subex's flagship product, HyperSense Business Management Studio, by creating various modules.
-                        <br />
-                        <br />
-                        I am a recent graduate with a Master's in Computer Engineering from NYU, I have also served as a Graduate Teaching Assistant 
-                        for a course on Data Analytics and Visualization in Healthcare. 
-                        <br />
-                        <br />
-                        As I embark on the next phase of my career journey, I am open to opportunities in Software Engineering, Data Analysis, and Machine Learning Engineering roles. 
-                        Eager to apply my diverse skill set to tackle new challenges, I am committed to contributing to the success of any organization I join. 
-                        <br />
-                        <br />
-                        Please feel free to reach out if you have any inquiries or would like to connect. I look forward to exploring potential opportunities where I can make meaningful contributions.
+                            With nearly three years of experience as a Software Engineer, I bring a strong foundation in programming, data structures, algorithms, and software development.
+                            My expertise lies in full-stack web application development, leveraging modern technologies such as Angular, React, TypeScript, JavaScript, and Java Spring Boot.
+                            <br />
+                            <br />
+                            I am proficient in Java, Python, SQL, and R, with hands-on experience utilizing frameworks and libraries like TensorFlow, PyTorch, CUDA, NumPy, and Pandas for AI and data-intensive projects.
+                            <br />
+                            <br />
+                            As I advance in my career, I am enthusiastic about exploring opportunities in Software Engineering, Data Analysis, and Machine Learning Engineering.
+                            My goal is to apply my diverse skill set to solve challenging problems and contribute meaningfully to the success of forward-thinking organizations.
+                            <br />
+                            <br />
+                            Feel free to reach out with inquiries or collaboration opportunities. I look forward to connecting and contributing to innovative projects.
                         </p>
                     </div>
                 </div>
