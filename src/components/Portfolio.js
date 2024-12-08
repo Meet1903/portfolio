@@ -144,6 +144,13 @@ export default function Portfolio() {
                     />
 
                     <PortfolioItem
+                        cardType='filter-ai'
+                        title='Cuda Coalesced Memory'
+                        technology='C++, CUDA'
+                        link="https://github.com/Meet1903/CUDA-Coalesced-Memory-Example"
+                    />
+
+                    <PortfolioItem
                         cardType='filter-analysis'
                         title='Employee Attrition Insights: Leveraging IBM HR Analytics Data'
                         technology='Python, PyTorch, Tableau'
