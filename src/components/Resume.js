@@ -6,7 +6,7 @@ export default function Resume() {
         <section id="resume" className="resume">
             <div className="container">
                 <div className="section-title">
-                    <h2>Resume <a href="https://drive.google.com/file/d/1o7sW-l6PvauLxMGMYMYNETXJiBFJvkRG/view?usp=drive_link" target="_blank"><i className="fa fa-paperclip resume-link"></i></a></h2>
+                    <h2>Resume <a href="https://drive.google.com/file/d/1oHKjXOBYiy2wyfyPnEr_4yL_eTGoP6id/view?usp=sharing" target="_blank"><i className="fa fa-paperclip resume-link"></i></a></h2>
                 </div>
                 <div className="row">
                     <div className="col-lg-6" data-aos="fade-up">
@@ -64,8 +64,10 @@ export default function Resume() {
                             title="Lead Engineer"
                             duration="August 2024 - Present"
                             description="CareerStar"
-                            listItem={["Leading development initiatives for a startup, utilizing a tech stack that includes React, Python, Flask, AWS RDS PostgreSQL, AWS S3, and AWS EC2 to build scalable and robust solutions.",
-                                "Overseeing entire Software Development Life Cycle, including requirements gathering, system architecture, database design, development, testing, and deployment, ensuring seamless product delivery."
+                            listItem={["Developed a scalable SaaS-based MVP, reducing development time by 50% through efficient system architecture.",
+                                "Secured AWS grants for zero-cost development and eliminated the need for an additional developer by managing the entire SDLC.",
+                                "Onboarded two university clients and one corporate client, making the startup revenue-generating.",
+                                "Utilized React, Python, Flask, AWS RDS PostgreSQL, AWS S3, and AWS EC2 to deliver robust solutions."
                             ]}
                         />
                         <ResumeItem
@@ -74,7 +76,7 @@ export default function Resume() {
                             duration="August 2021 - August 2022"
                             description="Subex Limited"
                             listItem={["Engineered robust full-stack applications using Java Spring Boot, with React and JavaScript for front end.",
-                                "Redesigned a Data Processing Module with an auto-suggestion feature for complex queries and an inbuilt query tester, reducing user input time by 70% and enabling seamless integration across applications, saving 25% in overall development costs.",
+                                "Redesigned a Data Processing Module with an auto-suggestion feature for complex queries and an inbuilt query tester, reducing user input time by 70% and enabling seamless integration across applications.",
                                 "Leveraged Spring JPA and PostgreSQL for efficient data persistence and retrieval, writing over 100 efficient SQL queries, ensuring data integrity, and supporting seamless operations across various application modules.",
                                 "Implemented CI/CD pipelines to automate build, test, and deployment processes, increasing SDLC efficiency."
                             ]}
@@ -95,7 +97,6 @@ export default function Resume() {
                             duration="March 2020 - October 2020"
                             description="Ouranos Technologies"
                             listItem={["Improved data processing capabilities by 30% by engineering robust data-driven applications using Python and leveraging NumPy and Pandas for efficient data manipulation and analysis.",
-                                "Designed and implemented dynamic and responsive user interfaces with Angular, writing over 10,000 lines of code, which improved user engagement and experience on multiple devices.",
                                 "Developed and integrated RESTful API using Flask, enabling seamless communication between front-end and back-end systems, resulting in a 20% improvement in data exchange efficiency."
                             ]}
                         />
