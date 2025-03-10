@@ -81,10 +81,24 @@ export default function Portfolio() {
                     />
 
                     <PortfolioItem
+                        cardType='filter-development filter-ai'
+                        title='Resume Feedback App'
+                        technology='Next, Node, Gemini 2.0 Flash'
+                        link="https://github.com/Meet1903/Resume-Feedback-App"
+                    />
+
+                    <PortfolioItem
                         cardType='filter-ai'
                         title='Adversarial Attack and Training on Forward Forward Network'
                         technology='Python, PyTorch'
                         link="https://drive.google.com/file/d/1TSdLeeVqqINupxPfC_GoC2DElSghv75S/view?usp=sharing"
+                    />
+
+                    <PortfolioItem
+                        cardType='filter-development filter-ai'
+                        title='Dream Storyteller'
+                        technology='Next, Node, Gemini 2.0 Flash'
+                        link="https://github.com/Meet1903/GenAI-Dream-Storyteller"
                     />
 
                     <PortfolioItem
